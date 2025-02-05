@@ -26,6 +26,8 @@ def prime_game():
         if not brain_games.ask_question(question, correct_answer):
             print(f"Let's try again, {name}!")
             return
+    
+    print(f"Congratulations, {name}!")
 
 
 def main():
